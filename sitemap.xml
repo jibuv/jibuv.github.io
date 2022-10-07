@@ -11,17 +11,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jibuv.github.io/about2/</loc>
+         <loc>https://jibuv.github.io/tags/</loc>
          <lastmod>2022-10-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jibuv.github.io/dl/about3/</loc>
+         <loc>https://jibuv.github.io/articles/about2/</loc>
          <lastmod>2022-10-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jibuv.github.io/dl/about4/</loc>
+         <loc>https://jibuv.github.io/articles/about3/</loc>
+         <lastmod>2022-10-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jibuv.github.io/articles/about4%20-%20Copy/</loc>
+         <lastmod>2022-10-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jibuv.github.io/articles/about4/</loc>
+         <lastmod>2022-10-07</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jibuv.github.io/articles/testblog/</loc>
          <lastmod>2022-10-07</lastmod>
          <changefreq>daily</changefreq>
     </url>
