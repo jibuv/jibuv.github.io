@@ -281,15 +281,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
+  <a href="#blogs-will-come-below-this" class="md-nav__link">
+    Blogs will come below this
   </a>
   
 </li>
@@ -418,19 +411,306 @@
 <p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
 </code></pre></div>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<div class="highlight"><pre><span></span><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<h2 id="blogs-will-come-below-this">Blogs will come below this</h2>
+<p>
+
+
+
+<style>
+    .md-typeset .blog-post:first-of-type h3 {
+        margin-top: 0;
+    }
+
+    .md-typeset .blog-post-title {
+        margin-bottom: 0;
+    }
+
+    .md-typeset .blog-post-extra {
+        color: var(--md-default-fg-color--light);
+    }
+
+    .md-typeset .blog-center {
+        text-align: center;
+    }
+
+    .md-typeset .blog-pagination {
+        display: inline-block;
+    }
+
+    .md-typeset .blog-pagination a {
+        color: var(--md-typeset-color);
+        float: left;
+        padding: .25em 1em;
+        text-decoration: none;
+        border-radius: 1em;
+        margin-left: .25em;
+        margin-right: .25em;
+        transition: all .15s ease-in-out;
+    }
+
+    .md-typeset .blog-pagination a.active {
+        background-color: var(--md-typeset-a-color);
+        color: white;
+        font-weight: bold;
+    }
+
+    .md-typeset .blog-pagination a:hover:not(.active) {
+        background-color: #dddddda1;
+    }
+
+    .md-typeset .blog-hidden {
+        display: none;
+    }
+</style>
+
+<style>
+    .blog-override-post {
+        padding: 30px 60px 30px 0;
+        margin-top: 10px;
+        border: 1px solid transparent;
+        cursor: default;
+    }
+
+    .blog-override-post .blog-post-title {
+        color: var(--md-typeset-a-color);
+        margin-top: 0;
+    }
+
+    .blog-post-description {
+        color: var(--md-typeset-color);
+    }
+
+    .blog-override-post:first-of-type {
+        margin-top: 0;
+    }
+
+    .blog-override-post:hover {
+        border: 1px solid #e8e8e877;
+        box-shadow: 3px 4px 10px #e8e8e8;
+    }
+
+    .blog-override-post,
+    .blog-override-post>* {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .blog-override-post:hover>* {
+        transform: translateX(30px);
+    }
+
+    .blog-post-description,
+    .blog-post-extra {
+        opacity: 0.8;
+    }
+
+    .blog-override-post:hover .blog-post-description,
+    .blog-override-post:hover .blog-post-extra {
+        opacity: 1;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .blog-override-post,
+        .blog-override-post>* {
+            transition: none;
+        }
+
+        .blog-override-post:hover>* {
+            transform: none;
+        }
+
+        .blog-override-post {
+            padding: 30px 0 30px 0;
+            border: none;
+            cursor: pointer;
+        }
+
+        .blog-override-post:hover {
+            border: none;
+            box-shadow: none;
+        }
+
+        .blog-post-description,
+        .blog-post-extra,
+        .blog-override-post:hover .blog-post-description,
+        .blog-override-post:hover .blog-post-extra {
+            opacity: 1;
+        }
+    }
+</style>
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+
+    <style>
+    .md-typeset .blogging-tags-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 5px;
+    }
+
+    .md-typeset .blogging-tag {
+        color: var(--md-typeset-color);
+        background-color: var(--md-typeset-code-color);
+    }
+
+    .md-typeset .blogging-tag code {
+        border-radius: 5px;
+    }
+</style>
+
+    
+
+
+
+
+
+
+<div class="pages">
+    
+        
+        <div class="page" id="page1">
+
+            
+                
+                
+                
+                
+
+                
+                
+                    
+                
+
+                
+                
+                    
+                
+                
+                <a href="https://jibuv.github.io/dl/about3/">
+    <div class="blog-override-post">
+        <h3 class="blog-post-title">Blog Header</h3>
+        
+        <p class="blog-post-description"><h1 id="blog-header">Blog Header</h1>
+<h2 id="blogs-will-come-below-this">Blogs will come below this</h2>
+<p>{{ blog_content }}</p></p>
+        <div class="blog-post-extra">
+            Published at: 07/10/2022, 6:46 PM
+        </div>
+    </div>
+</a>
+
+                
+            
+                
+                
+                
+                
+
+                
+                
+                    
+                
+
+                
+                
+                    
+                
+                
+                <a href="https://jibuv.github.io/dl/about4/">
+    <div class="blog-override-post">
+        <h3 class="blog-post-title">teste</h3>
+        
+        <p class="blog-post-description"><h1 id="teste">teste</h1>
+<h2 id="subducere-me-venti-quamquam-solet">Subducere me venti quamquam solet</h2>
+<p>Lorem markdownum <strong>fletumque</strong> undis vigilantibus fuerunt auget, hoc faciat quam
+gerit sanguine offensa et nequiquam prius exspirare. Muneris videt ponti
+tactuque amnis nec; intrarant dextra, pedum; callida sibi.</p>
+<ol>
+<li>Petit forma desiderioque fuit supinis ramos ego</li>
+<li>Marmoreum nomine</li>
+<li>Stupuit professa tibi fictamque procubuit inter de</li>
+<li>Crede refugitque prodes neque diffudere rorant</li>
+<li>Eodem vixque ubicumque linguam viventi</li>
+</ol>
+<p>Et <strong>spinis tardus est</strong> aliquid conplevit parva, ministro tua casta vocandus.
+Tecta galea: suspiria valetque illam dryades, post, et sua armentum sit
+absumptis, quam. Actaeona frequens et tibi maxima veterumque missos te mea cava
+et miratur Learchum ecce adpellavere quinque.</p>
+<h2 id="victoris-flaventibus-naves">Victoris flaventibus naves</h2>
+<p>Robigine cum res a manu adita minorem silvas Neritius quibus at dixit, ut
+Saturnia excepit celanda in? Inter arcuerat et laude siquis illa, rumpunt
+percurrens honorem. Vera senex illi, sub peremit est clamat quibus alta.</p>
+<div class="highlight"><pre><span></span><code>var whoisBridge = web(wrap_sprite_publishing, lock_data_web(tooltipNumber(
+        socketVolume, smtpFlatbedRam), title_sd));
+if (4 &lt; controlShell) {
+    unitQuad.multiplatformCybersquatter = warmCodec(mpeg, soft) / itKdeCell;
+    rgbVisual = gps.lpi_koffice.dashboard_adsl(49, 15) * 3 + 2;
+    barebonesHalf(commercialApacheWireless(oop_address));
+} else {
+    file_dvd_fragmentation = 3;
+    telnet_ntfs(2, 85 * controllerMatrixHypertext, cronInteger);
+    page(newline_leopard);
+}
+toggle_firewall_vlb = compression - e - windows_aix;
+youtubeDuplexIct.pppoe_troubleshooting.risc(rdf);
+var memory_wordart_point = engine_rte_eide(scalable_speakers, install(user))
+        - 590901 - lossyAd;
 </code></pre></div>
+<h2 id="neque-fero-nomina-et-inquit-namque-dederat">Neque fero nomina et inquit namque dederat</h2>
+<p>Metuunt capitis et est saepe manusque <strong>abit nudaverat</strong>: forma ego, aut.
+<strong>Placidoque mihi</strong>, origine sanguine silices aliquas rerum est sed montibus,
+et. Fera ut magis sidus, vitium nece Venus undis belli indigenis arguitur, et
+moveret nemorum. Causam vobis <strong>caelum</strong> instrumenta quod iuvenes litus, Cupido
+illo, campis, nubes fixit terga deum tecta!</p>
+<p>Ille innixa vestigia hasta Asopida praemia figens posset cunctis corporis avenis
+nempe dextra praenovimus. <em>Illa</em> duarum, maculas, inde tellus acta, mansit et
+Diomede truces.</p>
+<p>A umbras orabam in inficit esses questus <a href="http://idem.com/faciat.aspx">erant alas
+amaris</a>, dum velint ante. Tabo <em>artus</em>, inlisit,
+per haec irata stravere aratro Lelegeides convaluit numina, Cyane tamen capillos
+premebam exsereret deducens.</p>
+<p>Et a crebros, undas redeuntque caros, fert animos Hyperborea. Omnes vestes
+deusque habet <em>illa</em> emoriar, superare luserat Phaethontida super; tenuisse Haec
+nebula. Blanditiis diemque est nulla pectora debes est Molpeus, ego medio
+<strong>vipereos parentis</strong> terramque. Aurae ossibus defendite Theti
+<a href="http://tenusperii.org/">pluvialibus</a>, et quod, nunc illi semianimes.</p></p>
+        <div class="blog-post-extra">
+            Published at: 07/10/2022, 6:46 PM
+        </div>
+    </div>
+</a>
+
+                
+            
+        </div>
+    
+</div>
+
+<div class="blog-center blog-hidden">
+    <div class="blog-pagination " id="blog-pagination">
+        
+            <a class="page-number" href="#blog-p1">1</a>
+        
+    </div>
+    
+</div></p>
 
 
 
@@ -495,4 +775,59 @@ docs/
       
     
   </body>
-</html>
+</html><script>var currentPage = 0
+const lastComponent = window.location.href.split("/").slice(-1).pop()
+
+if (lastComponent && lastComponent.slice(0, 7) == "#blog-p") {
+  const page = parseInt(lastComponent.slice(7))
+  if (page) {
+    currentPage = page - 1
+  }
+}
+
+function scrollToTop() {
+  setTimeout(function () {
+    window.scrollTo(0, 0);
+  }, 100);
+}
+
+var pagination = document.getElementById("blog-pagination");
+if (pagination) {
+  var links = pagination.getElementsByClassName("page-number");
+  if (links.length) {
+    for (var i = 0; i < links.length; i++) {
+      // Toggle pagination highlight
+      links[i].addEventListener("click", function () {
+        var current = pagination.getElementsByClassName("active");
+        if (current.length) {
+          current[0].className = current[0].className.replace(
+            " active", ""
+          );
+        }
+        this.className += " active";
+
+        // Togglg visibility of pages
+        const destPage = parseInt(this.textContent)
+        var pages = document.getElementsByClassName("page")
+        if (destPage && pages.length) {
+          for (var j = 0; j < pages.length; j++) {
+            const pageId = parseInt(pages[j].id.replace("page", ""))
+            if (pageId != destPage) {
+              // This is not the destination page
+              if (!pages[j].className.includes("blog-hidden")) {
+                pages[j].className += " blog-hidden"
+              }
+            } else {
+              // This is the destination page
+              pages[j].className = pages[j].className.replace(" blog-hidden", "")
+            }
+            scrollToTop();
+          }
+        }
+      });
+    }
+    links[currentPage].className += " active"
+    links[currentPage].click();
+  }
+}
+</script>
