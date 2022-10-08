@@ -2,42 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jibuv.github.io/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jibuv.github.io/about/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jibuv.github.io/tags/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jibuv.github.io/articles/TF%20-%20Metrics%2000e41c98508043f2b0ec22367c3f8383/</loc>
+         <lastmod>2022-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jibuv.github.io/articles/about2/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jibuv.github.io/articles/about3/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jibuv.github.io/articles/about4%20-%20Copy/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jibuv.github.io/articles/about4/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jibuv.github.io/articles/testblog/</loc>
-         <lastmod>2022-10-07</lastmod>
+         <lastmod>2022-10-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
